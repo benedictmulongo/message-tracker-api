@@ -1,0 +1,8 @@
+version: '3'
+services:
+  message-api:
+    build:
+        context: .
+    ports:
+      - "8000:8000"
+    # restart: on-failure

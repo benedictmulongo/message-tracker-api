@@ -16,7 +16,7 @@ Fast-API & sqlite is used to implement those requirements. Fast-API has a good d
 #### How to run
 
 ##### CASE 1: You want to use the current project dependencies
-######  This project uses python v. 3.9 in order for case 1 to work use system with python 3.9 installed otherwise use case 2 or case 3
+
 * Install pipenv
 ```cmd 
 > pip install pipenv
@@ -56,11 +56,8 @@ and then :
 > pipenv install fastapi uvicorn SQLAlchemy pytest httpx
 > uvicorn main:app --reload
 ```
-##### CASE 3: Use docker compose (version without hyphen between docker and compose)
+##### CASE 3: Use docker compose
 
->```
-> docker compose up -d
->```
 
 #### Test:
 
